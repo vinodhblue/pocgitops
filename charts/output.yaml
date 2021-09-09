@@ -18,4 +18,4 @@ spec:
   values:
     service:
       type: "NodePort"
-apiversion: "This is from Java Code 4:00"
+apiversion: "This is from Java Code 4:35"
