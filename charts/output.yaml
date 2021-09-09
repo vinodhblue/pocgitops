@@ -1,5 +1,5 @@
 ---
-kind: "HelmRelease"
+kind: "Helmpoc"
 metadata:
   name: "my-traefik"
   namespace: "traefik"
