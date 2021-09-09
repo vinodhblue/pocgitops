@@ -1,8 +1,8 @@
 ---
 kind: "Helmpoc"
 metadata:
-  name: "my-traefik"
-  namespace: "traefik"
+  name: "Java"
+  namespace: "8"
 spec:
   chart:
     spec:
