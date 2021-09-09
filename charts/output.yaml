@@ -1,0 +1,21 @@
+---
+kind: "HelmRelease"
+metadata:
+  name: "my-traefik"
+  namespace: "traefik"
+spec:
+  chart:
+    spec:
+      chart: "traefik"
+      sourceRef:
+        kind: "HelmRepository"
+        name: "traefik"
+      version: "9.18.2"
+  interval: "1m0s"
+  install:
+    remediation:
+      retries: 3
+  values:
+    service:
+      type: "NodePort"
+apiversion: "This is from Java Code"
