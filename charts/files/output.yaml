@@ -1,0 +1,21 @@
+---
+kind: "Helmpoc"
+metadata:
+  name: "Java"
+  namespace: "11"
+spec:
+  chart:
+    spec:
+      chart: "traefik"
+      sourceRef:
+        kind: "HelmRepository"
+        name: "traefik"
+      version: "9.18.2"
+  interval: "1m0s"
+  install:
+    remediation:
+      retries: 3
+  values:
+    service:
+      type: "NodePort"
+apiversion: "from java code 4:40"
