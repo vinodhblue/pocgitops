@@ -2,7 +2,7 @@
 kind: "Helmpoc"
 metadata:
   name: "Java"
-  namespace: "13"
+  namespace: "14"
 spec:
   chart:
     spec:
